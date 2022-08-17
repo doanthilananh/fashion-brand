@@ -1,5 +1,5 @@
 <?php
-
+#lanh đã sửa
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
