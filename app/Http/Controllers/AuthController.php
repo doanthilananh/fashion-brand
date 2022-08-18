@@ -30,7 +30,11 @@ class AuthController extends Controller
     {
 
     }
+<<<<<<< HEAD
     #Lanh dang ky
+=======
+
+>>>>>>> 1c8ae13 (create api order detail)
     public function register(AuthRequest $request)
     {
         $result = $this->userService->register($request);

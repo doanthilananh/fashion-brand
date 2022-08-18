@@ -87,7 +87,11 @@
     </ul>
     <div class="carousel-inner">
         <div class="carousel-item active">
+<<<<<<< HEAD
             <img class="d-block w-100 " src="{{ asset('images/banner/1.jpg') }}" style="height:600px; object-fit: cover;" alt="">
+=======
+            <img class="d-block w-100 " src="{{ asset('images/banner/surface-cLTHKmQS0zI-unsplash.jpg') }}" style="height:600px; object-fit: cover;" alt="">
+>>>>>>> 1c8ae13 (create api order detail)
             <div class="carousel-caption">
                 <h1 class="display-2">Welcome</h1>
                 <h3>Lets take a tour !</h3>

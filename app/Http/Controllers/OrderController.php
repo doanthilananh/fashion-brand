@@ -8,10 +8,17 @@ use App\Models\Orders;
 use Illuminate\Support\Facades\Auth;
 use App\Repository\OrderRepositoryInterface;
 
+<<<<<<< HEAD
 //Thanh toan
 class OrderController extends Controller
 {
     private $orderRepository;
+=======
+class OrderController extends Controller
+{
+    private $orderRepository;
+
+>>>>>>> 1c8ae13 (create api order detail)
     public function __construct(OrderRepositoryInterface $orderRepository)
     {
         $this->orderRepository = $orderRepository;

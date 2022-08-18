@@ -83,11 +83,19 @@
 
                     @if(Config::get('app.locale') == 'en')
                     <li class="nav-item">
+<<<<<<< HEAD
                         <!-- <img src="{{ asset('images/flag_lang/american.png') }}" height="100" width="100" alt="" style="margin-top: 9px;"> -->
                     </li>
                     @else
                     <li class="nav-item">
                         <!-- <img src="{{ asset('images/flag_lang/vietnam.png') }}" height="100" width="100" alt="" style="margin-top: 9px;"> -->
+=======
+                        <img src="{{ asset('images/flag_lang/american.png') }}" alt="" style="margin-top: 15px;">
+                    </li>
+                    @else
+                    <li class="nav-item">
+                        <img src="{{ asset('images/flag_lang/vietnam.png') }}" alt="" style="margin-top: 15px;">
+>>>>>>> 1c8ae13 (create api order detail)
                     </li>
                     @endif
                     <div class="nav-wrapper ml-auto" style="margin-top: 15px;">

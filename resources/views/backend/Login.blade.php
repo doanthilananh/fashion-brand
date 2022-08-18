@@ -3,7 +3,11 @@
 <head>
 	<!-- Basic Page Info -->
 	<meta charset="utf-8">
+<<<<<<< HEAD
 	<title>Admin | Toto Shop </title>
+=======
+	<title>Admin | Bao Phat Smart Devices</title>
+>>>>>>> 1c8ae13 (create api order detail)
 
 	<!-- Site favicon -->
 	<link rel="apple-touch-icon" sizes="180x180" href="{{ asset('vendors/images/apple-touch-icon.png') }}">
@@ -29,7 +33,11 @@
 				<a href="login.html">
 					<!-- <img src="{{ asset('vendors/images/deskapp-logo.svg') }}" alt=""> -->
 					<img src="{{ asset('vendors/images/favicon-32x32.png') }}">
+<<<<<<< HEAD
 					<span style="font-weight: bold; font-size: 30px; color:brown" class="ml-3">Toto Fashion</span>
+=======
+					<span style="font-weight: bold; font-size: 30px; color:brown" class="ml-3">Bao Phat SD</span>
+>>>>>>> 1c8ae13 (create api order detail)
 				</a>
 			</div>
 		</div>

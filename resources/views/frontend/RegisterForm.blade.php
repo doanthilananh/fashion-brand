@@ -2,7 +2,11 @@
 @section('clientContent')
 
 <!-- Image slider -->
+<<<<<<< HEAD
 <!-- <div id="slides" class="carousel slide" data-ride="carousel">
+=======
+<div id="slides" class="carousel slide" data-ride="carousel">
+>>>>>>> 1c8ae13 (create api order detail)
     <ul class="carousel-indicators">
         <li data-target="#slides" data-slide-to="0" class="active"></li>
         <li data-target="#slides" data-slide-to="1"></li>
@@ -27,7 +31,11 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
     </a>
+<<<<<<< HEAD
 </div> -->
+=======
+</div>
+>>>>>>> 1c8ae13 (create api order detail)
 <!-- end_image_slider -->
 
 <div class="ml-auto mt-5 mb-5">
