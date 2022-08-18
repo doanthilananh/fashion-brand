@@ -173,11 +173,19 @@
 							<li><a href="{{ route('image.index',['type' => 3]) }}">Slide cart page</a></li>
 						</ul>
 					</li>
+<<<<<<< HEAD
 					<!-- <li class="dropdown">
 						<a href="{{ url('admin/post') }}" class="dropdown-toggle no-arrow">
 							<span class="micon dw dw-invoice"></span><span class="mtext">Posts</span>
 						</a>
 					</li> -->
+=======
+					<li class="dropdown">
+						<a href="{{ url('admin/post') }}" class="dropdown-toggle no-arrow">
+							<span class="micon dw dw-invoice"></span><span class="mtext">Posts</span>
+						</a>
+					</li>
+>>>>>>> 1c8ae13 (create api order detail)
 				</ul>
 			</div>
 		</div>

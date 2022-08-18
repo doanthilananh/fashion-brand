@@ -1,5 +1,9 @@
 <?php
+<<<<<<< HEAD
 #lanh đã sửa
+=======
+
+>>>>>>> 1c8ae13 (create api order detail)
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;

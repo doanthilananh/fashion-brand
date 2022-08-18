@@ -21,6 +21,7 @@ class OrderMail extends Mailable
     
     public function build()
     {
-        return $this->subject('Incoming mail from adoan2552@gmail.com')->view('mail.MailOrder',['details' => $this->details]);
+
+        return $this->subject('Incoming mail from khuong.pham@tda')->view('mail.MailOrder',['details' => $this->details]);
     }
 }

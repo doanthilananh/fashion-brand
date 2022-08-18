@@ -8,7 +8,11 @@
     <title>{{ isset($title)?$title:"Laravel" }}</title>
 </head>
 <body>
+<<<<<<< HEAD
     <h1>Incoming mail from Nhom 12/h1>
+=======
+    <h1>Incoming mail from Khuong Pham</h1>
+>>>>>>> 1c8ae13 (create api order detail)
     <p>Please click the link below to verify your account: </p>
     <a class="btn btn-success" href="http://localhost:8000/verify?code={{ $details->details['verification_code'] }}" role="button">Verify</a>
     

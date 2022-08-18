@@ -2,7 +2,11 @@
 @section('clientContent')
 
 <!-- Image slider -->
+<<<<<<< HEAD
 <!-- <div id="slides" class="carousel slide" data-ride="carousel">
+=======
+<div id="slides" class="carousel slide" data-ride="carousel">
+>>>>>>> 1c8ae13 (create api order detail)
     <ul class="carousel-indicators">
         <li data-target="#slides" data-slide-to="0" class="active"></li>
         <li data-target="#slides" data-slide-to="1"></li>
@@ -11,11 +15,19 @@
     <div class="carousel-inner">
         <div class="carousel-item active">
             <img class="d-block w-100 " src="{{ asset('images/banner/surface-cLTHKmQS0zI-unsplash.jpg') }}" style="height:400px; object-fit: cover;" alt="">
+<<<<<<< HEAD
             <div class="carousel-caption">
                 <h1 class="display-2">Welcome</h1>
                 <h3>Lets take a tour !</h3>
                 <button type="button" class="btn btn-outline-light btn-lg">Lets Go</button>
             </div>
+=======
+            <!-- <div class="carousel-caption">
+                <h1 class="display-2">Welcome</h1>
+                <h3>Lets take a tour !</h3>
+                <button type="button" class="btn btn-outline-light btn-lg">Lets Go</button>
+            </div> -->
+>>>>>>> 1c8ae13 (create api order detail)
         </div>
         <div class="carousel-item">
             <img class="d-block w-100" src="{{ asset('images/banner/microsoft-edge-FAaz8lkinzs-unsplash.jpg') }}" style="height:400px; object-fit: cover;" alt="">
@@ -32,7 +44,11 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
     </a>
+<<<<<<< HEAD
 </div> -->
+=======
+</div>
+>>>>>>> 1c8ae13 (create api order detail)
 <!-- end_image_slider -->
 
 <div class="ml-auto mt-5 mb-5">
@@ -45,7 +61,11 @@
                         <img src="{{ asset('images/banner/logo.png') }}" style="width: 70px;" alt="">
                         <h3 class="ml-2 pt-3"><b>{{ __('Sign in') }}</b></h3>
                     </div>
+<<<<<<< HEAD
                     <p class="mb-4">{{ __('Welcome to Toto Shop !') }}</p>
+=======
+                    <p class="mb-4">{{ __('Welcome to Bao Phat Smart Devices !') }}</p>
+>>>>>>> 1c8ae13 (create api order detail)
                     @include('layouts/flash-message')
                     <form action="#" method="post">
                         @csrf

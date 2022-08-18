@@ -12,7 +12,11 @@ class TelegramController extends Controller
     {
         $text = "A new order\n"
             . "<b>Email Address: </b>\n"
+<<<<<<< HEAD
             . "nhom12@gmail.com\n"
+=======
+            . "khuongc3@gmail.com\n"
+>>>>>>> 1c8ae13 (create api order detail)
             . "<b>Message: </b>\n"
             . "Incoming new message at ".Carbon::now('Asia/Ho_Chi_Minh');
  

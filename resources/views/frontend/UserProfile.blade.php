@@ -11,11 +11,19 @@
     <div class="carousel-inner">
         <div class="carousel-item active">
             <img class="d-block w-100 " src="{{ asset('images/banner/surface-cLTHKmQS0zI-unsplash.jpg') }}" style="height:400px; object-fit: cover;" alt="">
+<<<<<<< HEAD
             <div class="carousel-caption">
                 <h1 class="display-2">Welcome</h1>
                 <h3>Lets take a tour !</h3>
                 <button type="button" class="btn btn-outline-light btn-lg">Lets Go</button>
             </div>
+=======
+            <!-- <div class="carousel-caption">
+                <h1 class="display-2">Welcome</h1>
+                <h3>Lets take a tour !</h3>
+                <button type="button" class="btn btn-outline-light btn-lg">Lets Go</button>
+            </div> -->
+>>>>>>> 1c8ae13 (create api order detail)
         </div>
         <div class="carousel-item">
             <img class="d-block w-100" src="{{ asset('images/banner/microsoft-edge-FAaz8lkinzs-unsplash.jpg') }}" style="height:400px; object-fit: cover;" alt="">

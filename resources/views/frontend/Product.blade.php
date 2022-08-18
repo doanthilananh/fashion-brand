@@ -2,17 +2,27 @@
 @extends('layouts.client')
 @section('clientContent')
 <!-- Image slider -->
+<<<<<<< HEAD
 <div id="slides" class="carousel slide pl-5 pr-5" data-ride="carousel">
     <ul class="carousel-indicators">
         <li data-target="#slides" data-slide-to="0" class="active"></li>
         @if(!empty($slides))
             @for( $i=1; $i<=count($slides); $i++) 
                 <li data-target="#slides" data-slide-to="{{ $i }}"></li>
+=======
+<div id="slides" class="carousel slide" data-ride="carousel">
+    <ul class="carousel-indicators">
+        <li data-target="#slides" data-slide-to="0" class="active"></li>
+        @if(!empty($slides))
+            @for( $i=1; $i<=count($slides); $i++)
+            <li data-target="#slides" data-slide-to="{{ $i }}"></li>
+>>>>>>> 1c8ae13 (create api order detail)
             @endfor
         @endif
     </ul>
     <div class="carousel-inner">
         <div class="carousel-item active">
+<<<<<<< HEAD
             <img class="d-block w-100 " src="{{ asset('images/banner/3.jpg') }}" style="height:600px; object-fit: cover;" alt="">
             <div class="carousel-caption">
                 <h1 class="display-2">Welcome</h1>
@@ -26,6 +36,21 @@
             <img class="d-block w-100" src="{{ asset('images/'.$image->path) }}" style="height:600px; object-fit: cover;" alt="">
         </div>
         @endforeach
+=======
+            <img class="d-block w-100 " src="{{ asset('images/banner/surface-cLTHKmQS0zI-unsplash.jpg') }}" style="width: 100%; height: 400px; object-fit: cover;" alt="">
+            <!-- <div class="carousel-caption">
+                <h1 class="display-2">Welcome</h1>
+                <h3>Lets take a tour !</h3>
+                <button type="button" class="btn btn-outline-light btn-lg">Lets Go</button>
+            </div> -->
+        </div>
+        @if(!empty($slides))
+            @foreach($slides as $image)
+            <div class="carousel-item ">
+                <img class="d-block w-100" src="{{ asset('images/'.$image->path) }}" style="width: 100%; height: 400px; object-fit: cover;" alt="">
+            </div>
+            @endforeach
+>>>>>>> 1c8ae13 (create api order detail)
         @endif
     </div>
     <a class="carousel-control-prev" href="#slides" role="button" data-slide="prev">

@@ -11,11 +11,19 @@
     <div class="carousel-inner">
         <div class="carousel-item active">
             <img class="d-block w-100 " src="{{ asset('images/banner/surface-cLTHKmQS0zI-unsplash.jpg') }}" style="height:400px; object-fit: cover;" alt="">
+<<<<<<< HEAD
             <div class="carousel-caption">
                 <h1 class="display-2">Welcome</h1>
                 <h3>Lets take a tour !</h3>
                 <button type="button" class="btn btn-outline-light btn-lg">Lets Go</button>
             </div>
+=======
+            <!-- <div class="carousel-caption">
+                <h1 class="display-2">Welcome</h1>
+                <h3>Lets take a tour !</h3>
+                <button type="button" class="btn btn-outline-light btn-lg">Lets Go</button>
+            </div> -->
+>>>>>>> 1c8ae13 (create api order detail)
         </div>
         <div class="carousel-item">
             <img class="d-block w-100" src="{{ asset('images/banner/microsoft-edge-FAaz8lkinzs-unsplash.jpg') }}" style="height:400px; object-fit: cover;" alt="">
@@ -45,7 +53,11 @@
                         <img src="{{ asset('images/banner/logo.png') }}" style="width: 70px;" alt="">
                         <h3 class="ml-2 pt-3"><b>{{ __('Your Orders') }}</b></h3>
                     </div>
+<<<<<<< HEAD
                     <p class="mb-4">{{ __('Welcome to Toto Shop !') }}</p>
+=======
+                    <p class="mb-4">{{ __('Welcome to Bao Phat Smart Devices !') }}</p>
+>>>>>>> 1c8ae13 (create api order detail)
                     @if(count($orders->orders)==0)
                         <div>{{ __('You have not ordered anything !') }} </div>
                     @else
