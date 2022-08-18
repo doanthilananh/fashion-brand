@@ -30,7 +30,7 @@ class AuthController extends Controller
     {
 
     }
-
+    #Lanh dang ky
     public function register(AuthRequest $request)
     {
         $result = $this->userService->register($request);
