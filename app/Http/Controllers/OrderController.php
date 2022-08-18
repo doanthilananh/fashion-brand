@@ -8,10 +8,10 @@ use App\Models\Orders;
 use Illuminate\Support\Facades\Auth;
 use App\Repository\OrderRepositoryInterface;
 
+//Thanh toan
 class OrderController extends Controller
 {
     private $orderRepository;
-
     public function __construct(OrderRepositoryInterface $orderRepository)
     {
         $this->orderRepository = $orderRepository;
