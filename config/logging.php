@@ -21,6 +21,22 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+<<<<<<< HEAD
+=======
+    | Deprecations Log Channel
+    |--------------------------------------------------------------------------
+    |
+    | This option controls the log channel that should be used to log warnings
+    | regarding deprecated PHP and library features. This allows you to get
+    | your application ready for upcoming major versions of dependencies.
+    |
+    */
+
+    'deprecations' => env('LOG_DEPRECATIONS_CHANNEL', 'null'),
+
+    /*
+    |--------------------------------------------------------------------------
+>>>>>>> d9a8d6e (create api login, order detail)
     | Log Channels
     |--------------------------------------------------------------------------
     |
@@ -44,13 +60,21 @@ return [
         'single' => [
             'driver' => 'single',
             'path' => storage_path('logs/laravel.log'),
+<<<<<<< HEAD
             'level' => 'debug',
+=======
+            'level' => env('LOG_LEVEL', 'debug'),
+>>>>>>> d9a8d6e (create api login, order detail)
         ],
 
         'daily' => [
             'driver' => 'daily',
             'path' => storage_path('logs/laravel.log'),
+<<<<<<< HEAD
             'level' => 'debug',
+=======
+            'level' => env('LOG_LEVEL', 'debug'),
+>>>>>>> d9a8d6e (create api login, order detail)
             'days' => 14,
         ],
 
@@ -59,12 +83,20 @@ return [
             'url' => env('LOG_SLACK_WEBHOOK_URL'),
             'username' => 'Laravel Log',
             'emoji' => ':boom:',
+<<<<<<< HEAD
             'level' => 'critical',
+=======
+            'level' => env('LOG_LEVEL', 'critical'),
+>>>>>>> d9a8d6e (create api login, order detail)
         ],
 
         'papertrail' => [
             'driver' => 'monolog',
+<<<<<<< HEAD
             'level' => 'debug',
+=======
+            'level' => env('LOG_LEVEL', 'debug'),
+>>>>>>> d9a8d6e (create api login, order detail)
             'handler' => SyslogUdpHandler::class,
             'handler_with' => [
                 'host' => env('PAPERTRAIL_URL'),
@@ -74,6 +106,10 @@ return [
 
         'stderr' => [
             'driver' => 'monolog',
+<<<<<<< HEAD
+=======
+            'level' => env('LOG_LEVEL', 'debug'),
+>>>>>>> d9a8d6e (create api login, order detail)
             'handler' => StreamHandler::class,
             'formatter' => env('LOG_STDERR_FORMATTER'),
             'with' => [
@@ -83,12 +119,20 @@ return [
 
         'syslog' => [
             'driver' => 'syslog',
+<<<<<<< HEAD
             'level' => 'debug',
+=======
+            'level' => env('LOG_LEVEL', 'debug'),
+>>>>>>> d9a8d6e (create api login, order detail)
         ],
 
         'errorlog' => [
             'driver' => 'errorlog',
+<<<<<<< HEAD
             'level' => 'debug',
+=======
+            'level' => env('LOG_LEVEL', 'debug'),
+>>>>>>> d9a8d6e (create api login, order detail)
         ],
 
         'null' => [

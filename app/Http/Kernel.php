@@ -3,7 +3,10 @@
 namespace App\Http;
 
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
+<<<<<<< HEAD
 use Laravel\Sanctum\Http\Middleware\EnsureFrontendRequestsAreStateful;
+=======
+>>>>>>> d9a8d6e (create api login, order detail)
 
 class Kernel extends HttpKernel
 {
@@ -12,13 +15,21 @@ class Kernel extends HttpKernel
      *
      * These middleware are run during every request to your application.
      *
+<<<<<<< HEAD
      * @var array
+=======
+     * @var array<int, class-string|string>
+>>>>>>> d9a8d6e (create api login, order detail)
      */
     protected $middleware = [
         // \App\Http\Middleware\TrustHosts::class,
         \App\Http\Middleware\TrustProxies::class,
         \Fruitcake\Cors\HandleCors::class,
+<<<<<<< HEAD
         \App\Http\Middleware\CheckForMaintenanceMode::class,
+=======
+        \App\Http\Middleware\PreventRequestsDuringMaintenance::class,
+>>>>>>> d9a8d6e (create api login, order detail)
         \Illuminate\Foundation\Http\Middleware\ValidatePostSize::class,
         \App\Http\Middleware\TrimStrings::class,
         \Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull::class,
@@ -27,7 +38,11 @@ class Kernel extends HttpKernel
     /**
      * The application's route middleware groups.
      *
+<<<<<<< HEAD
      * @var array
+=======
+     * @var array<string, array<int, class-string|string>>
+>>>>>>> d9a8d6e (create api login, order detail)
      */
     protected $middlewareGroups = [
         'web' => [
@@ -41,8 +56,13 @@ class Kernel extends HttpKernel
         ],
 
         'api' => [
+<<<<<<< HEAD
             EnsureFrontendRequestsAreStateful::class,
             'throttle:60,1',
+=======
+            // \Laravel\Sanctum\Http\Middleware\EnsureFrontendRequestsAreStateful::class,
+            'throttle:api',
+>>>>>>> d9a8d6e (create api login, order detail)
             \Illuminate\Routing\Middleware\SubstituteBindings::class,
         ],
     ];
@@ -52,12 +72,19 @@ class Kernel extends HttpKernel
      *
      * These middleware may be assigned to groups or used individually.
      *
+<<<<<<< HEAD
      * @var array
+=======
+     * @var array<string, class-string|string>
+>>>>>>> d9a8d6e (create api login, order detail)
      */
     protected $routeMiddleware = [
         'auth' => \App\Http\Middleware\Authenticate::class,
         'auth.basic' => \Illuminate\Auth\Middleware\AuthenticateWithBasicAuth::class,
+<<<<<<< HEAD
         'bindings' => \Illuminate\Routing\Middleware\SubstituteBindings::class,
+=======
+>>>>>>> d9a8d6e (create api login, order detail)
         'cache.headers' => \Illuminate\Http\Middleware\SetCacheHeaders::class,
         'can' => \Illuminate\Auth\Middleware\Authorize::class,
         'guest' => \App\Http\Middleware\RedirectIfAuthenticated::class,
@@ -65,8 +92,11 @@ class Kernel extends HttpKernel
         'signed' => \Illuminate\Routing\Middleware\ValidateSignature::class,
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
         'verified' => \Illuminate\Auth\Middleware\EnsureEmailIsVerified::class,
+<<<<<<< HEAD
         'adminRole' => \App\Http\Middleware\checkRole::class,
         'lang' => \App\Http\Middleware\Localization::class,
         'auth.user' => \App\Http\Middleware\UserAuthenticate::class,
+=======
+>>>>>>> d9a8d6e (create api login, order detail)
     ];
 }

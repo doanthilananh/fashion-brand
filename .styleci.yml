@@ -1,7 +1,13 @@
 php:
   preset: laravel
+<<<<<<< HEAD
   disabled:
     - unused_use
+=======
+  version: 8
+  disabled:
+    - no_unused_imports
+>>>>>>> d9a8d6e (create api login, order detail)
   finder:
     not-name:
       - index.php

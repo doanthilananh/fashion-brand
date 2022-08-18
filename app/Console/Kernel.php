@@ -2,13 +2,17 @@
 
 namespace App\Console;
 
+<<<<<<< HEAD
 use Illuminate\Console\Command;
+=======
+>>>>>>> d9a8d6e (create api login, order detail)
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
 
 class Kernel extends ConsoleKernel
 {
     /**
+<<<<<<< HEAD
      * The Artisan commands provided by your application.
      *
      * @var array
@@ -18,6 +22,8 @@ class Kernel extends ConsoleKernel
     ];
 
     /**
+=======
+>>>>>>> d9a8d6e (create api login, order detail)
      * Define the application's command schedule.
      *
      * @param  \Illuminate\Console\Scheduling\Schedule  $schedule

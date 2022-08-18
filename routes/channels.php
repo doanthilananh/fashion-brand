@@ -13,6 +13,10 @@ use Illuminate\Support\Facades\Broadcast;
 |
 */
 
+<<<<<<< HEAD
 Broadcast::channel('App.User.{id}', function ($user, $id) {
+=======
+Broadcast::channel('App.Models.User.{id}', function ($user, $id) {
+>>>>>>> d9a8d6e (create api login, order detail)
     return (int) $user->id === (int) $id;
 });

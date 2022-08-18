@@ -13,9 +13,12 @@ return [
     | using this caching library. This connection is used when another is
     | not explicitly specified when executing a given caching function.
     |
+<<<<<<< HEAD
     | Supported: "apc", "array", "database", "file",
     |            "memcached", "redis", "dynamodb"
     |
+=======
+>>>>>>> d9a8d6e (create api login, order detail)
     */
 
     'default' => env('CACHE_DRIVER', 'file'),
@@ -29,6 +32,12 @@ return [
     | well as their drivers. You may even define multiple stores for the
     | same cache driver to group types of items stored in your caches.
     |
+<<<<<<< HEAD
+=======
+    | Supported drivers: "apc", "array", "database", "file",
+    |         "memcached", "redis", "dynamodb", "octane", "null"
+    |
+>>>>>>> d9a8d6e (create api login, order detail)
     */
 
     'stores' => [
@@ -46,6 +55,10 @@ return [
             'driver' => 'database',
             'table' => 'cache',
             'connection' => null,
+<<<<<<< HEAD
+=======
+            'lock_connection' => null,
+>>>>>>> d9a8d6e (create api login, order detail)
         ],
 
         'file' => [
@@ -74,7 +87,12 @@ return [
 
         'redis' => [
             'driver' => 'redis',
+<<<<<<< HEAD
             'connection' => 'default',
+=======
+            'connection' => 'cache',
+            'lock_connection' => 'default',
+>>>>>>> d9a8d6e (create api login, order detail)
         ],
 
         'dynamodb' => [
@@ -86,6 +104,13 @@ return [
             'endpoint' => env('DYNAMODB_ENDPOINT'),
         ],
 
+<<<<<<< HEAD
+=======
+        'octane' => [
+            'driver' => 'octane',
+        ],
+
+>>>>>>> d9a8d6e (create api login, order detail)
     ],
 
     /*

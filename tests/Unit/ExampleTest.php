@@ -11,7 +11,11 @@ class ExampleTest extends TestCase
      *
      * @return void
      */
+<<<<<<< HEAD
     public function testBasicTest()
+=======
+    public function test_example()
+>>>>>>> d9a8d6e (create api login, order detail)
     {
         $this->assertTrue(true);
     }

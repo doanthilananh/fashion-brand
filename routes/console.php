@@ -16,4 +16,8 @@ use Illuminate\Support\Facades\Artisan;
 
 Artisan::command('inspire', function () {
     $this->comment(Inspiring::quote());
+<<<<<<< HEAD
 })->describe('Display an inspiring quote');
+=======
+})->purpose('Display an inspiring quote');
+>>>>>>> d9a8d6e (create api login, order detail)

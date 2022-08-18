@@ -31,7 +31,11 @@ return [
     | users are actually retrieved out of your database or other storage
     | mechanisms used by this application to persist your user's data.
     |
+<<<<<<< HEAD
     | Supported: "session", "token"
+=======
+    | Supported: "session"
+>>>>>>> d9a8d6e (create api login, order detail)
     |
     */
 
@@ -40,6 +44,7 @@ return [
             'driver' => 'session',
             'provider' => 'users',
         ],
+<<<<<<< HEAD
 
         'api' => [
             'driver' => 'token',
@@ -51,6 +56,8 @@ return [
             'driver' => 'session',
             'provider' => 'admins',
         ],
+=======
+>>>>>>> d9a8d6e (create api login, order detail)
     ],
 
     /*
@@ -76,11 +83,14 @@ return [
             'model' => App\Models\User::class,
         ],
 
+<<<<<<< HEAD
         'admins' => [
             'driver' => 'eloquent',
             'model' => App\Models\Admin::class,
         ],
 
+=======
+>>>>>>> d9a8d6e (create api login, order detail)
         // 'users' => [
         //     'driver' => 'database',
         //     'table' => 'users',
@@ -96,7 +106,11 @@ return [
     | than one user table or model in the application and you want to have
     | separate password reset settings based on the specific user types.
     |
+<<<<<<< HEAD
     | The expire time is the number of minutes that the reset token should be
+=======
+    | The expire time is the number of minutes that each reset token will be
+>>>>>>> d9a8d6e (create api login, order detail)
     | considered valid. This security feature keeps tokens short-lived so
     | they have less time to be guessed. You may change this as needed.
     |

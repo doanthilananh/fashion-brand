@@ -48,8 +48,13 @@ return [
             'url' => env('DATABASE_URL'),
             'host' => env('DB_HOST', '127.0.0.1'),
             'port' => env('DB_PORT', '3306'),
+<<<<<<< HEAD
             'database' => env('DB_DATABASE', 'forge'),
             'username' => env('DB_USERNAME', 'forge'),
+=======
+            'database' => env('DB_DATABASE', 'laravel'),
+            'username' => env('DB_USERNAME', 'root'),
+>>>>>>> d9a8d6e (create api login, order detail)
             'password' => env('DB_PASSWORD', ''),
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
@@ -119,7 +124,11 @@ return [
 
     'redis' => [
 
+<<<<<<< HEAD
         'client' => env('REDIS_CLIENT', 'predis'),
+=======
+        'client' => env('REDIS_CLIENT', 'phpredis'),
+>>>>>>> d9a8d6e (create api login, order detail)
 
         'options' => [
             'cluster' => env('REDIS_CLUSTER', 'redis'),

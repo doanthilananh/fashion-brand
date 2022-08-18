@@ -13,3 +13,9 @@ trim_trailing_whitespace = false
 
 [*.{yml,yaml}]
 indent_size = 2
+<<<<<<< HEAD
+=======
+
+[docker-compose.yml]
+indent_size = 4
+>>>>>>> d9a8d6e (create api login, order detail)
