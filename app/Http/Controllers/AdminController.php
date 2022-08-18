@@ -16,6 +16,7 @@ class AdminController extends Controller
     public function dashboard(){
         return view ('backend.home');
     }
+    #phuong
     public function login(Request $request){
         $admin_email = $request->admin_email;
         $admin_password = md5($request->admin_password);
