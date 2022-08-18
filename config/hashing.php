@@ -44,9 +44,15 @@ return [
     */
 
     'argon' => [
+<<<<<<< HEAD
         'memory' => 1024,
         'threads' => 2,
         'time' => 2,
+=======
+        'memory' => 65536,
+        'threads' => 1,
+        'time' => 4,
+>>>>>>> d9a8d6e (create api login, order detail)
     ],
 
 ];

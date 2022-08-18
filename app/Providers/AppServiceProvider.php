@@ -3,12 +3,15 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
+<<<<<<< HEAD
 use Illuminate\Support\Facades\View;
 use App\Http\View\Composers\HotProductsComposer;
 use App\Http\View\Composers\CategoryComposer;
 use Illuminate\Cache\RateLimiting\Limit;
 use Illuminate\Support\Facades\RateLimiter;
 use App\Product;
+=======
+>>>>>>> d9a8d6e (create api login, order detail)
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -29,6 +32,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+<<<<<<< HEAD
         // view composer        
         View::Composer(['frontend/Home'], HotProductsComposer::class);
         View::Composer(['layouts/client','frontend/Home','backend/product/ProductCreate','backend/product/ProductUpdate'],CategoryComposer::class);
@@ -43,5 +47,8 @@ class AppServiceProvider extends ServiceProvider
                 return response('denied',429);
             });
         });
+=======
+        //
+>>>>>>> d9a8d6e (create api login, order detail)
     }
 }

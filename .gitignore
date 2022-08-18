@@ -1,13 +1,25 @@
 /node_modules
 /public/hot
 /public/storage
+<<<<<<< HEAD
 /public/images
+=======
+>>>>>>> d9a8d6e (create api login, order detail)
 /storage/*.key
 /vendor
 .env
 .env.backup
 .phpunit.result.cache
+<<<<<<< HEAD
+=======
+docker-compose.override.yml
+>>>>>>> d9a8d6e (create api login, order detail)
 Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
+<<<<<<< HEAD
+=======
+/.idea
+/.vscode
+>>>>>>> d9a8d6e (create api login, order detail)

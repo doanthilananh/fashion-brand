@@ -4,6 +4,7 @@ namespace App\Providers;
 
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
 use Illuminate\Support\Facades\Gate;
+<<<<<<< HEAD
 use App\Models\Product;
 use App\Models\User;
 use App\Models\Category;
@@ -30,5 +31,29 @@ class AuthServiceProvider extends ServiceProvider
         Gate::define('test',function($user){
             return true;
         });        
+=======
+
+class AuthServiceProvider extends ServiceProvider
+{
+    /**
+     * The policy mappings for the application.
+     *
+     * @var array<class-string, class-string>
+     */
+    protected $policies = [
+        // 'App\Models\Model' => 'App\Policies\ModelPolicy',
+    ];
+
+    /**
+     * Register any authentication / authorization services.
+     *
+     * @return void
+     */
+    public function boot()
+    {
+        $this->registerPolicies();
+
+        //
+>>>>>>> d9a8d6e (create api login, order detail)
     }
 }

@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 *.sqlite
 *.sqlite-journal
+=======
+*.sqlite*
+>>>>>>> d9a8d6e (create api login, order detail)

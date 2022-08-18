@@ -8,7 +8,11 @@
  */
 
 $uri = urldecode(
+<<<<<<< HEAD
     parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH)
+=======
+    parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH) ?? ''
+>>>>>>> d9a8d6e (create api login, order detail)
 );
 
 // This file allows us to emulate Apache's "mod_rewrite" functionality from the

@@ -16,7 +16,11 @@ class CreateUsersTable extends Migration
         Schema::create('users', function (Blueprint $table) {
             $table->id();
             $table->string('name');
+<<<<<<< HEAD
             $table->string('email')->unique();
+=======
+            $table->string('email');
+>>>>>>> d9a8d6e (create api login, order detail)
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->rememberToken();

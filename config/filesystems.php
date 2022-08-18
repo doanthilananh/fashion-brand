@@ -17,6 +17,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+<<<<<<< HEAD
     | Default Cloud Filesystem Disk
     |--------------------------------------------------------------------------
     |
@@ -30,6 +31,8 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+=======
+>>>>>>> d9a8d6e (create api login, order detail)
     | Filesystem Disks
     |--------------------------------------------------------------------------
     |
@@ -63,6 +66,10 @@ return [
             'bucket' => env('AWS_BUCKET'),
             'url' => env('AWS_URL'),
             'endpoint' => env('AWS_ENDPOINT'),
+<<<<<<< HEAD
+=======
+            'use_path_style_endpoint' => env('AWS_USE_PATH_STYLE_ENDPOINT', false),
+>>>>>>> d9a8d6e (create api login, order detail)
         ],
 
     ],
@@ -80,7 +87,13 @@ return [
 
     'links' => [
         public_path('storage') => storage_path('app/public'),
+<<<<<<< HEAD
         public_path('images') => storage_path('app/images'),
     ],
 
 ];
+=======
+    ],
+
+];
+>>>>>>> d9a8d6e (create api login, order detail)

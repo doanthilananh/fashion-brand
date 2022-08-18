@@ -44,7 +44,11 @@ return [
     |
     */
 
+<<<<<<< HEAD
     'expiration' => 60,
+=======
+    'expiration' => null,
+>>>>>>> d9a8d6e (create api login, order detail)
 
     /*
     |--------------------------------------------------------------------------

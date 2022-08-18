@@ -3,8 +3,11 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
+<<<<<<< HEAD
 use App\Http\Controllers\ApiAuthController;
 
+=======
+>>>>>>> d9a8d6e (create api login, order detail)
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -16,6 +19,7 @@ use App\Http\Controllers\ApiAuthController;
 |
 */
 
+<<<<<<< HEAD
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
@@ -35,3 +39,8 @@ Route::middleware(['auth:sanctum','throttle:60,1'])->group(function () {
     Route::get('/user','Api\UserController@index');
     
 });
+=======
+Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
+    return $request->user();
+});
+>>>>>>> d9a8d6e (create api login, order detail)
